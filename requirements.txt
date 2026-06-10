@@ -1,0 +1,26 @@
+# bixu-airflow-deps
+# Python dependencies for d3b-bixu Airflow DAGs (MWAA)
+# ------------------------------------------------------------------------------
+
+# --- Seven Bridges / Cavatica API ---
+sevenbridges-python>=2.0,<3.0
+
+# --- Data manipulation & numerics ---
+pandas>=1.5.0,<2.2.0
+numpy>=1.21.0,<1.27.0
+
+# --- PostgreSQL database connectivity ---
+psycopg2-binary>=2.9.0
+
+# --- SQL toolkit (keep 1.4.x for Airflow 2.x compatibility) ---
+SQLAlchemy>=1.4.0,<2.0.0
+
+# --- HTTP / API clients ---
+requests>=2.28.0
+
+# --- Progress bars (used by task_model scripts) ---
+tqdm>=4.65.0
+
+# --- Standard library backports / utilities (no install needed for py3.9+) ---
+# argparse, csv, concurrent.futures, datetime, fnmatch, gzip, itertools,
+# json, logging, os, re, shutil, subprocess, sys, time, traceback, urllib.parse
