@@ -21,6 +21,12 @@ requests>=2.28.0
 # --- Progress bars (used by task_model scripts) ---
 tqdm>=4.65.0
 
+# --- AWS SDK ---
+boto3>=1.28.0
+
+# --- d3b custom packages ---
+git+https://github.com/d3b-center/dewrangle-id-minting-process@main
+
 # --- Standard library backports / utilities (no install needed for py3.9+) ---
 # argparse, csv, concurrent.futures, datetime, fnmatch, gzip, itertools,
 # json, logging, os, re, shutil, subprocess, sys, time, traceback, urllib.parse
